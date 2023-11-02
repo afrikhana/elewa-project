@@ -39,6 +39,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     </div>
     </div>
    </div>
+   <div class="my-links">
+    <app-social-links></app-social-links>
+   </div>
+   <div class="my-footer-logo">
+    <app-logo></app-logo>
+   </div>
+
   `,
   styleUrls: ['./about-info.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush

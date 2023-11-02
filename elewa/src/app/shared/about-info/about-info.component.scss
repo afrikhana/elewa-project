@@ -22,16 +22,18 @@
         margin: 7% 0 0 5%;
         width: 90%;
         height: min-content;
-        gap: 13%;
+        gap: 14%;
         #headquaters{
             
             h1{
                 font-size: 1.3rem;
+                text-decoration: underline;
             }
         }
         #contact-dec{
             h1{
                 font-size: 1.3rem;
+                text-decoration: underline;
             }
         }
         #Navigation{
@@ -40,18 +42,38 @@
             line-height: 1.6rem;
             h1{
                 font-size: 1.3rem;
+                text-decoration: underline;
             }
             
         }
         #Brands{
             h1{
                 font-size: 1.3rem;
+                text-decoration: underline;
             }
         }
         #Privacy{
             h1{
                 font-size: 1.3rem;
+                text-decoration: underline;
             }
         }
     }
+}
+.my-links{
+    position: absolute;
+    width: 13%;
+    height: 5%;
+    bottom: 2%;
+    left: 83%;
+    cursor: pointer;
+    // background-color: antiquewhite;
+}
+.my-footer-logo{
+    position: absolute;
+    width: 13%;
+    height: 5%;
+    bottom: 2%;
+    left: 5%;
+    object-fit: cover;
 }

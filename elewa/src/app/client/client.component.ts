@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 
         <div class="header">
           <div id="logo">
-            <img src={{logo}} alt="elewa-logo">
+            <app-logo></app-logo>
           </div>
         <nav>
             <a routerLink="/about" routerLinkActive="active" >{{about}}</a>
@@ -23,5 +23,5 @@ export class ClientComponent {
   public about = 'About';
   public social = 'Social';
   public invest = 'Invest';
-  public logo = 'https://res.cloudinary.com/ddei3mzex/image/upload/v1698922465/Logo_White_arvoyx_h9kx9y.svg'
+  
 }

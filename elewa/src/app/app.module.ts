@@ -8,6 +8,9 @@ import { SharedComponent } from './shared/shared.component';
 import { AboutInfoComponent } from './shared/about-info/about-info.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ClientComponent } from './client/client.component';
+import { UiComponent } from './ui/ui.component';
+import { LogoComponent } from './ui/logo/logo.component';
+import { SocialLinksComponent } from './ui/social-links/social-links.component';
 
 
 @NgModule({
@@ -19,6 +22,9 @@ import { ClientComponent } from './client/client.component';
     SharedComponent,
     AboutInfoComponent,
     ClientComponent,
+    UiComponent,
+    LogoComponent,
+    SocialLinksComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,6 +36,9 @@ import { ClientComponent } from './client/client.component';
     SharedComponent,
     AboutInfoComponent,
     ClientComponent,
+    UiComponent,
+    LogoComponent,
+    SocialLinksComponent,
   ]
 })
 export class AppModule { }
