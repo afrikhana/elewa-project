@@ -2,9 +2,13 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template:` 
+    <app-client></app-client>
+    
+  
+  `,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'elewa';
+  
 }

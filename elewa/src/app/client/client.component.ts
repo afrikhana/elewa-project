@@ -1,15 +1,28 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-client',
   template: `
-    <p>
-      client works!
-    </p>
+
+        <div class="header">
+          <div id="logo">
+            <app-logo></app-logo>
+          </div>
+        <nav>
+            <a routerLink="about"  >{{about}}</a>
+            <a routerLink="social"  >{{social}}</a>
+            <a routerLink="invest" >{{invest}}</a>
+          </nav>
+        </div>
+        <div class="line-header"></div>
+        <router-outlet></router-outlet>
+   
   `,
-  styleUrls: ['./client.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  styleUrls: ['./client.component.scss']
 })
 export class ClientComponent {
-
+  public about = 'About';
+  public social = 'Social';
+  public invest = 'Invest';
+  
 }
