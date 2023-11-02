@@ -7,6 +7,7 @@ import { InvestComponent } from './invest/invest.component';
 import { SharedComponent } from './shared/shared.component';
 import { AboutInfoComponent } from './shared/about-info/about-info.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ClientComponent } from './client/client.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     InvestComponent,
     SharedComponent,
     AboutInfoComponent,
+    ClientComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +29,7 @@ import { AppRoutingModule } from './app-routing.module';
   exports: [
     SharedComponent,
     AboutInfoComponent,
+    ClientComponent,
   ]
 })
 export class AppModule { }
