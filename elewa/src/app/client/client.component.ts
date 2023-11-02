@@ -9,12 +9,13 @@ import { Component } from '@angular/core';
             <app-logo></app-logo>
           </div>
         <nav>
-            <a routerLink="/about" routerLinkActive="active" >{{about}}</a>
-            <a routerLink="/social" routerLinkActive="active" >{{social}}</a>
-            <a routerLink="/invest" routerLinkActive="active" >{{invest}}</a>
+            <a routerLink="about"  >{{about}}</a>
+            <a routerLink="social"  >{{social}}</a>
+            <a routerLink="invest" >{{invest}}</a>
           </nav>
         </div>
         <div class="line-header"></div>
+        <router-outlet></router-outlet>
    
   `,
   styleUrls: ['./client.component.scss']

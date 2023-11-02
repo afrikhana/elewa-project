@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
     <p>
       invest works!
     </p>
+    <app-about-info></app-about-info>
   `,
   styleUrls: ['./invest.component.scss']
 })

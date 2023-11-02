@@ -3,9 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-social-impact',
   template: `
-    <p>
-      social-impact works!
-    </p>
+   
+    <app-about-info></app-about-info>
   `,
   styleUrls: ['./social-impact.component.scss']
 })
