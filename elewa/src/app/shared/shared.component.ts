@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       shared works!
     </p>
   `,
-  styleUrls: ['./shared.component.scss'],
+  styles: [''],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SharedComponent {
