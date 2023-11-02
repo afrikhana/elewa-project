@@ -5,6 +5,9 @@ import { ClientComponent } from './client/client.component';
 import { SocialImpactComponent } from './social-impact/social-impact.component';
 import { AboutComponent } from './about/about.component';
 import { InvestComponent } from './invest/invest.component';
+import { SharedComponent } from './shared/shared.component';
+import { AboutInfoComponent } from './shared/about-info/about-info.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +15,10 @@ import { InvestComponent } from './invest/invest.component';
     ClientComponent,
     SocialImpactComponent,
     AboutComponent,
-    InvestComponent
+    InvestComponent,
+    SharedComponent,
+    AboutInfoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +26,10 @@ import { InvestComponent } from './invest/invest.component';
   providers: [],
   bootstrap: [AppComponent],
   exports: [
-    ClientComponent
+    ClientComponent,
+    SharedComponent,
+    AboutInfoComponent,
+    NavbarComponent
   ]
 })
 export class AppModule { }
