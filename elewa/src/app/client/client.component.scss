@@ -1,21 +1,22 @@
 .line-header{
     position: absolute;
-    background-color: red;
+    background-color: white;
     width: 90%;
     height: 2px;
     top: 12%;
     left: 5.2%;
+    z-index: 99;
 }
  .header{
         width: 90%;
         height: 5%;
-        background-color: black;
         color: white;
         display: flex;
         flex-direction: row;
         position: absolute;
         gap: 55%;
-        margin: 2% 0 0 5%;
+        margin: 4% 0 0 5%;
+        z-index: 99;
     #logo{
         flex: 1;
     }

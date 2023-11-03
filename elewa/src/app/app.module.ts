@@ -15,6 +15,9 @@ import { SocialLinksComponent } from './ui/social-links/social-links.component';
 import { ClientUiComponent } from './client/client-ui/client-ui.component';
 import { DropDownButtonComponent } from './client/client-ui/drop-down-button/drop-down-button.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedFeatureComponent } from './shared/shared-feature/shared-feature.component';
+import { WorkContentComponent } from './social-impact/features/work-content/work-content.component';
+
 
 
 @NgModule({
@@ -32,6 +35,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SocialLinksComponent,
     ClientUiComponent,
     DropDownButtonComponent,
+    SharedFeatureComponent,
+    WorkContentComponent,
   ],
   imports: [
     BrowserModule,
@@ -52,6 +57,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SocialLinksComponent,
     ClientUiComponent,
     DropDownButtonComponent,
+    SharedFeatureComponent,
+    WorkContentComponent,
   ]
 })
 export class AppModule { }
