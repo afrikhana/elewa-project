@@ -4,9 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-about',
   template: `
   <p>about page</p>
-    <app-about-info></app-about-info>
-    <app-client></app-client>
-    <router-outlet></router-outlet>
+    <app-about-info></app-about-info>    
   `,
   styleUrls: ['./about.component.scss']
 })

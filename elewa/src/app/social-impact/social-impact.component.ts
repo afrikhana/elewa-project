@@ -13,6 +13,7 @@ import { Component } from '@angular/core';
                     <h1>Human and Environmental Impact <br>through Social Enterprise</h1>
                   </div>
                   <div id="display-work-content">
+                    <!-- displays work flow/ records of past achievements -->
                     <app-work-content></app-work-content>
                   </div>
 <!-- second intro on social business -->
@@ -88,5 +89,5 @@ import { Component } from '@angular/core';
 })
 export class SocialImpactComponent {
        public image = 'https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg'
-       
+
 }
