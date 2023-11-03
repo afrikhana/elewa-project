@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UiComponent } from './ui.component';
+import { ClientUiComponent } from './client-ui.component';
 
-describe('UiComponent', () => {
-  let component: UiComponent;
-  let fixture: ComponentFixture<UiComponent>;
+describe('ClientUiComponent', () => {
+  let component: ClientUiComponent;
+  let fixture: ComponentFixture<ClientUiComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [UiComponent]
+      declarations: [ClientUiComponent]
     });
-    fixture = TestBed.createComponent(UiComponent);
+    fixture = TestBed.createComponent(ClientUiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

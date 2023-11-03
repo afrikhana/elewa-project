@@ -1,15 +1,13 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-ui',
+  selector: 'app-client-ui',
   template: `
-    <p>
-      ui works!
-    </p>
+    
   `,
-  styleUrls: ['./ui.component.scss'],
+  styleUrls: ['./client-ui.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class UiComponent {
+export class ClientUiComponent {
 
 }

@@ -12,9 +12,12 @@ import { Component } from '@angular/core';
             <a routerLink="about"  >{{about}}</a>
             <a routerLink="social"  >{{social}}</a>
             <a routerLink="invest" >{{invest}}</a>
+            <app-drop-down-button id='drop'></app-drop-down-button>
           </nav>
+          
         </div>
         <div class="line-header"></div>
+        
         <router-outlet></router-outlet>
    
   `,
