@@ -83,3 +83,14 @@ The social impact directory files provide a set of React components that can be 
 
 It holds most of the specified components that are used in the application for the animations to functionality.
 
+## Client / shared components
+The client are all the base routes that are used in the amplication. It recieves the routes components from the global app.routes  module then assigns the specific paths there for the component maybe reused
+client.component.scss: This file contains the CSS styles for the client component.
+client.component.ts: This file contains the TypeScript code for the client component.
+client.component.spec.ts: This file contains the unit tests for the client component.
+shared: This directory contains the files for the shared components and features.
+The client.component is the main component for the Angular application. It is responsible for rendering the layout of the application and loading the other components.
+
+
+The shared directory contains the files for the shared components and features. These components and features are used across the application. For example, the shared-feature component is a shared component that is used in both the client and invest features.
+
