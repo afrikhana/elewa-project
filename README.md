@@ -1,6 +1,7 @@
 # elewa-project
 
 # Base Structure explanation 
+Tried to Implement the google Basic architecture by Victor Savkin and Jeff Cross.
 #Folders
 app/: The root folder of the application. Contains the main application module, components, and other shared resources.
 about/: Contains the code for the About component.
