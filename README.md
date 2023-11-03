@@ -34,3 +34,52 @@ Additional Notes
 ![Screenshot from 2023-11-04 01-14-56](https://github.com/afrikhana/elewa-project/assets/126652969/6a193056-8b2b-4d86-b96e-36d5b6c7e436)
 ![Screenshot from 2023-11-04 01-15-17](https://github.com/afrikhana/elewa-project/assets/126652969/783db95d-7c20-46ad-a173-8d33f4cb6276)
 
+# social impact files explaned
+-- #The social-impact-features directory contains the following files:
+'contains features specified for social-features that are then called '
+
+features.component.scss: This file contains the CSS styles for the social impact features.
+features.component.spec.ts: This file contains the unit tests for the social impact features component.
+features.component.ts: This file contains the TypeScript code for the social impact features component.
+social-impact.component.scss: This file contains the CSS styles for the social impact component.
+social-impact.component.spec.ts: This file contains the unit tests for the social impact component.
+social-impact.component.ts: This file contains the TypeScript code for the social impact component.
+work-content-components
+The work-content-components directory contains the following files:
+#work-content
+This calculates the base hystory of the company and is then shared as a component to the social page
+work-content.component.scss: This file contains the CSS styles for the work content component.
+work-content.component.spec.ts: This file contains the unit tests for the work content component.
+work-content.component.ts: This file contains the TypeScript code for the work content component.
+logo
+## ui components
+This are dumb components that was tend to be reused all round the pages.
+The logo directory contains the following files:
+
+logo.component.scss: This file contains the CSS styles for the logo component.
+logo.component.spec.ts: This file contains the unit tests for the logo component.
+logo.component.ts: This file contains the TypeScript code for the logo component.
+social-links
+The social-links directory contains the following files:
+## social{contains all the links for the specific website of elewa}
+social-links.component.scss: This file contains the CSS styles for the social links component.
+social-links.component.spec.ts: This file contains the unit tests for the social links component.
+social-links.component.ts: This file contains the TypeScript code for the social links component.
+ui.component
+The ui.component directory contains the following files:
+
+ui.component.scss: This file contains the CSS styles for the UI component.
+ui.component.spec.ts: This file contains the unit tests for the UI component.
+ui.component.ts: This file contains the TypeScript code for the UI component.
+Usage
+To use the social impact directory files, you will need to import them into your React project. For example, to import the social-impact component, you would add the following line to your code:
+
+import { SocialImpactComponent } from './social-impact/social-impact.component';
+Once you have imported the components, you can use them in your React code like any other component. For example, to render the social-impact component, you would add the following code to your template:
+
+<SocialImpactComponent />
+Conclusion
+The social impact directory files provide a set of React components that can be used to create a social impact website. The components are well-written and easy to use, and they are unit tested to ensure quality.
+
+It holds most of the specified components that are used in the application for the animations to functionality.
+
