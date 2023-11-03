@@ -63,17 +63,18 @@
 .my-links{
     position: absolute;
     width: 13%;
-    height: 5%;
-    bottom: 2%;
+    height: 1%;
+    bottom: 0;
     left: 83%;
     cursor: pointer;
     // background-color: antiquewhite;
 }
 .my-footer-logo{
     position: absolute;
+    z-index: 5;
     width: 13%;
-    height: 5%;
-    bottom: 2%;
+    height: 1%;
+    bottom: 0;
     left: 5%;
     object-fit: cover;
 }

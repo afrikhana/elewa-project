@@ -27,19 +27,19 @@ import { Component } from '@angular/core';
 <!-- third intro based on cooperation -->
                     <div class="cop-mindset">
                       <div id="mind-content">
-                        <h1>A cooperative mindset</h1>
-                        <p>Elewa has one shared objective; To unlock the truth <br>potential of individuals, teams, and the community. We <br>
-                        believe strongly in the power of sharing ideas and <br> continously strive to grow each other and ourselves. <br>Internally, but also withing the large communities in which <br>
-                      we are active.</p>
+                        <h1>A cooperative <br>mindset</h1>
+                        <p>Elewa has one shared objective; To unlock the true <br>potential of individuals, teams, and the community.<br> We 
+                        believe strongly in the power of sharing ideas <br>and  continously strive to grow each other and <br>ourselves. Internally, but also withing the large <br>communities in which
+                      we are active.</p></div>
                         <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1681308135/buffelo_i60xeu.jpg" alt="buffalo">
-                      </div>
+                      
                     </div>
 <!-- forth intro based on beyond business -->
                     <div class="beyond-business">
+                    <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,q_90,w_400/v1675690301/elewa-group-website/Images/IMG_0764_twyo3k.png" alt="kids">
                       <div id="beyond-content">
-                          <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,q_90,w_400/v1675690301/elewa-group-website/Images/IMG_0764_twyo3k.png" alt="kids">
                           <h1>Beyond business</h1>
-                          <p>We channel a good amount of our resources into giving <br>back.
+                          <p>We channel a good amount of our resources into giving <br>back. <br>
                               <br>Through projects such as our coding school in Kakuma <br> refugee camp, training teachers in pastoral Samburu and <br>
                               our open-source coding initiatives providing entry-level <br> opportunities to hundreds of junior engineers <br><br>These projects dont necessarily have an immediate <br>
                               financial return, but their impact can be tangibly <br>measured in the long-term. 
@@ -47,15 +47,15 @@ import { Component } from '@angular/core';
                       </div>
                     </div>
 <!-- fifth intro based on open knowledge -->
-                    <!-- <div class='open-knowledge'>
+                    <div class='open-knowledge'>
                       <div id='open-content'>
                         <h1>Open knowledge</h1>
                         <p>what we learn, we share. Through community events, <br>open knowledge repositories, regular teaching moments <br>
                         (everyone is a teacher) and academic partnerships. <br><br>We build for today, with aaaaaaa lens on tomorrow.
                       </p>
-                        <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690302/elewa-group-website/Images/unnamed_1_m3dvll.png" alt="co-founder">
                       </div>
-                    </div> -->
+                        <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690302/elewa-group-website/Images/unnamed_1_m3dvll.png" alt="co-founder">
+                    </div>
 <!-- sicth intro based on missions and companies/slideshow -->
                     <!-- <div class='before-footer'>
                       <h1>Some of our impact projects</h1>
@@ -75,9 +75,11 @@ import { Component } from '@angular/core';
                       </div>
                       <h1>Become part of our mission <br> and <span>join elewa.</span></h1>
                     </div> -->
+                  
               </div>
+              <app-about-info></app-about-info>
    </div>
-    <!-- <app-about-info></app-about-info> -->
+    <!--  -->
   `,
   styleUrls: ['./social-impact.component.scss']
 })
