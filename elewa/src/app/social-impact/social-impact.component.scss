@@ -9,6 +9,7 @@
         border-radius: 0 0 40px 40px;
         position: absolute;
         z-index: 4;
+        
 
         #chains{
             width: 100%;
@@ -39,6 +40,7 @@
             margin: 64% 0 0 15%;
             height: 10%;
         }
+        
     }
     .business-for-win{
         z-index: 5;
@@ -64,7 +66,17 @@
             line-height: 2.5rem;
         }
        
-        
+        animation: slideFromTop 2s ease-in-out;
+        @keyframes slideFromTop {
+            0% {
+              margin-top: 100vh; // Start with a margin that places it below the viewport
+              opacity: 0;
+            }
+            100% {
+              margin-top: 75%; // Move the content to its final position
+              opacity: 1;
+            }
+          }
     }
     .cop-mindset{
         width: 100%;
@@ -82,6 +94,7 @@
             width: 50%;
             height: 60%;
             line-height: 4rem;
+           
             h1{
                 margin-top: 5%;
             font-size: 4.5rem;
@@ -98,7 +111,20 @@
             height: 700px;
             border-radius: 10%;
             margin: 8% 0 0 0 ;
+           
         }
+        // @keyframes slideFromTop {
+        //     0% {
+        //       margin-top: -100vh; // Start with a margin that places it above the viewport
+        //       opacity: 0;
+        //     }
+        //     100% {
+        //       margin-top: 10%; // Move the content to its final position (top to bottom)
+        //       opacity: 1;
+        //     }
+        //   }
+       
+        
        }
 
        .beyond-business{
@@ -170,4 +196,62 @@
             
             }
        }
+       .before-footer{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 1;
+        color: black;
+        margin: 275% 0 0 0;
+        display: grid;
+            place-items: center;
+            gap: 10%;
+            border-radius: 30px;
+
+            #h-one{
+                margin: 0% 0 0 0%;
+                font-size: 3rem;
+                line-height: 15.5rem;
+                position: relative;
+            }
+            #slide-show-container{
+                width: 100%;
+                overflow: hidden;
+                #slide-show{
+                    display: flex;
+                    animation: slide 10s linear infinite;
+                    width: 90%;
+                    margin: 0% 0 0 0%;
+                    gap: 8%;
+                    img{
+                        width: 250px;
+                        height: 80px;
+                        object-fit: contain;
+                    }
+                    @keyframes slide {
+                        0% {
+                            transform: translateX(0);
+                        animation-timing-function: ease-in;
+                        animation-fill-mode: forwards;
+                    }
+                    100% {
+                        transform: translateX(-100%); /* Adjust as needed for your number of images */
+                    }
+                }
+                   }
+            }
+            
+               #h-two{
+                font-size: 3rem;
+                line-height: 5.5rem;
+                text-align: center;
+                position: relative;
+                
+
+                span{
+                    font-weight: bold;
+                }
+               }
+       }
+       
 }

@@ -57,10 +57,11 @@ import { Component } from '@angular/core';
                         <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690302/elewa-group-website/Images/unnamed_1_m3dvll.png" alt="co-founder">
                     </div>
 <!-- sicth intro based on missions and companies/slideshow -->
-                    <!-- <div class='before-footer'>
-                      <h1>Some of our impact projects</h1>
-                      <div id="slide-show">
-                        <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380443/elewa-group-website/client-logos/ms-adc_y96dms.jpg" alt="microsoft">
+                    <div class='before-footer'>
+                      <h1 id="h-one">Some of our impact projects</h1>
+                      <div id="slide-show-container">
+                          <div id="slide-show">
+                          <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380443/elewa-group-website/client-logos/ms-adc_y96dms.jpg" alt="microsoft">
                         <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380412/elewa-group-website/client-logos/Spotlights_7_pplnvm.jpg" alt="spotlights">
                         <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380406/elewa-group-website/client-logos/Kenya_Scouts_Association_kcoka5.svg" alt="kenya=scouts">
                         <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380406/elewa-group-website/client-logos/wwf-4-logo-png-transparent_tbkfcq.png" alt="panda">
@@ -72,9 +73,11 @@ import { Component } from '@angular/core';
                         <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380405/elewa-group-website/client-logos/Enabel-logo_afiel7.png" alt="Enable">
                         <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380406/elewa-group-website/client-logos/syndicyourself_logfo_qiqrex.png" alt="sydanic">
                         <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380405/elewa-group-website/client-logos/adc-logo_dgxpul.jpg" alt="africa">
+                          </div>
                       </div>
-                      <h1>Become part of our mission <br> and <span>join elewa.</span></h1>
-                    </div> -->
+                      
+                      <h1 id="h-two">Become part of our mission <br> and <span>join elewa.</span></h1>
+                    </div>
                   
               </div>
               <app-about-info></app-about-info>
