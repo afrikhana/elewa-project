@@ -66,7 +66,7 @@
             line-height: 2.5rem;
         }
        
-        animation: slideFromTop 2s ease-in-out;
+        animation: slideFromTop 4s ease-in-out;
         @keyframes slideFromTop {
             0% {
               margin-top: 100vh; // Start with a margin that places it below the viewport
@@ -113,16 +113,17 @@
             margin: 8% 0 0 0 ;
            
         }
-        // @keyframes slideFromTop {
-        //     0% {
-        //       margin-top: -100vh; // Start with a margin that places it above the viewport
-        //       opacity: 0;
-        //     }
-        //     100% {
-        //       margin-top: 10%; // Move the content to its final position (top to bottom)
-        //       opacity: 1;
-        //     }
-        //   }
+        animation: slideFromTop1 4s ease-in-out;
+        @keyframes slideFromTop1 {
+            0% {
+              margin-top: 200vh; // Start with a margin that places it below the viewport
+              opacity: 0;
+            }
+            100% {
+              margin-top: 113%; // Move the content to its final position
+              opacity: 1;
+            }
+          }
        
         
        }
@@ -160,6 +161,17 @@
     
             
             }
+            animation: slideFromTop2 7s ease-in-out;
+        @keyframes slideFromTop2 {
+            0% {
+              margin-top: 300vh; // Start with a margin that places it below the viewport
+              opacity: 0;
+            }
+            100% {
+              margin-top: 168%; // Move the content to its final position
+              opacity: 1;
+            }
+          }
        }
        .open-knowledge{
         width: 100%;
@@ -195,6 +207,17 @@
     
             
             }
+            animation: slideFromTop3 9s ease-in-out;
+        @keyframes slideFromTop3 {
+            0% {
+              margin-top: 400vh; // Start with a margin that places it below the viewport
+              opacity: 0;
+            }
+            100% {
+              margin-top: 223%; // Move the content to its final position
+              opacity: 1;
+            }
+          }
        }
        .before-footer{
         width: 100%;
@@ -213,6 +236,7 @@
                 font-size: 3rem;
                 line-height: 15.5rem;
                 position: relative;
+                animation: fadeIn 8s linear 7s forwards;
             }
             #slide-show-container{
                 width: 100%;
@@ -246,12 +270,21 @@
                 line-height: 5.5rem;
                 text-align: center;
                 position: relative;
-                
+                animation: fadeIn 10s linear 8s forwards;
 
                 span{
                     font-weight: bold;
                 }
                }
+               @keyframes fadeIn {
+                0% {
+                  opacity: 0;
+                }
+                100% {
+                  opacity: 1;
+                }
+              }
+              
        }
        
 }
